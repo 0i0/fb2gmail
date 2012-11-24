@@ -1,0 +1,13 @@
+{ "name": "fb2gmail"
+, "version": "0.0.1"
+, "description": ""
+, "author": "Leo <0@0i0.io>"
+, "engines": 
+    { "node": "0.6.x"
+    , "npm":  "1.0.x"
+    }
+, "dependencies": 
+  { "express": ">=0.0.1"
+  , "request": ">=0.0.1"
+  }
+}
