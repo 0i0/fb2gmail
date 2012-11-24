@@ -1,7 +1,7 @@
-Base Node on Heroku
+fb2gmail
 ========
 
-This is my base setup to build node/heroku apps
+This will export all you friends from facebook including the desired @facebook addresses so you won't waste any more time on the newsfeed
 
 ## Requirments
 * [NodeJS](http://github.com/ry/node)
@@ -9,7 +9,7 @@ This is my base setup to build node/heroku apps
 * [Heroku toolbelt](https://toolbelt.heroku.com/)
 
 ## Getting Started
-    git clone git://github.com/0i0/BaseNode.git APPNAME
+    git clone https://github.com/0i0/fb2gmail.git
     cd APPNAME
     npm install
     
@@ -23,4 +23,5 @@ Visit [http://localhost:8000](http://localhost:8000)
 
 ## Deploy
     heroku config:add NODE_ENV=production
+    heroku config:add FB_APP_ID=xxx FB_APP_SECRET=xxx
     git push heroku master
